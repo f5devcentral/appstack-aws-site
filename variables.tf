@@ -54,7 +54,7 @@ variable "aws_subnet_ce_cidr" {
   type        = map(string)
   description = "Map to hold different CE cidr with key as name of subnet"
   default = {
-    "outside"  = "<your aws cidr for outside>"
+    "outside"  = "<your aws cidr for outside/SLO>"
   }
 }
 
